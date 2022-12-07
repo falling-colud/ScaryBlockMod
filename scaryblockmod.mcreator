@@ -7,13 +7,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "scary_block"
+    },
+    {
+      "name": "ScaryBlockMod",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scary_block_mod"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.scaryblockmod.scary_block": "Scary Block"
+      "block.scaryblockmod.scary_block": "Scary Block",
+      "itemGroup.tabscary_block_mod": "Scary Block Mod"
     }
   },
   "foldersRoot": {

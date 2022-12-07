@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Scary Block Mod",
+    "icon": {
+      "value": "CUSTOM:ScaryBlock"
+    },
+    "showSearch": false
+  }
+}
