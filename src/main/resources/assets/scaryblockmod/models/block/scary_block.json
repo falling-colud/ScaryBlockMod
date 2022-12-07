@@ -1,0 +1,8 @@
+{
+  "parent": "scaryblockmod:custom/dirt",
+  "textures": {
+    "all": "scaryblockmod:blocks/dirt",
+    "particle": "scaryblockmod:blocks/dirt",
+    "0": "scaryblockmod:blocks/dirt"
+  }
+}
