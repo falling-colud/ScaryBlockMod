@@ -20,7 +20,7 @@
       "name": "ScaryBlockBlockDestroyedByPlayer",
       "type": "procedure",
       "sortid": 3,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "scary_block_block_destroyed_by_player",
       "metadata": {
@@ -84,6 +84,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.scaryblockmod",
     "lockBaseModFiles": false
   },
