@@ -20,12 +20,41 @@
       "name": "ScaryBlockBlockDestroyedByPlayer",
       "type": "procedure",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "scary_block_block_destroyed_by_player",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       }
+    },
+    {
+      "name": "BloodBottle",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bottle"
     }
   ],
   "variable_elements": [],
@@ -33,7 +62,8 @@
   "language_map": {
     "en_us": {
       "block.scaryblockmod.scary_block": "Scary Block",
-      "itemGroup.tabscary_block_mod": "Scary Block Mod"
+      "itemGroup.tabscary_block_mod": "Scary Block Mod",
+      "item.scaryblockmod.blood_bottle": "Blood Bottle"
     }
   },
   "foldersRoot": {
