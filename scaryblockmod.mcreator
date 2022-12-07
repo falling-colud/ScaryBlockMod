@@ -15,6 +15,17 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "scary_block_mod"
+    },
+    {
+      "name": "ScaryBlockBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scary_block_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
