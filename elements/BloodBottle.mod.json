@@ -36,7 +36,7 @@
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
-    "animation": "eat"
+    "isAlwaysEdible": true,
+    "animation": "drink"
   }
 }

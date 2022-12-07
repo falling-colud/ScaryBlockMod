@@ -3,6 +3,7 @@ package net.mcreator.scaryblockmod.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -29,10 +30,18 @@ public class BloodBottleItem extends ScaryblockmodModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ScaryBlockModItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(0).saturation(0f)
-
-							.build()));
+					.food((new Food.Builder()).hunger(0).saturation(0f).setAlwaysEdible().build()));
 			setRegistryName("blood_bottle");
+		}
+
+		@Override
+		public UseAction getUseAction(ItemStack itemstack) {
+			return UseAction.DRINK;
+		}
+
+		@Override
+		public net.minecraft.util.SoundEvent getEatSound() {
+			return net.minecraft.util.SoundEvents.ENTITY_GENERIC_DRINK;
 		}
 
 		@Override
